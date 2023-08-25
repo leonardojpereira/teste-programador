@@ -141,8 +141,61 @@ main {
 /* ====== main fim ====== */
 
 
+.how-to-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px 0;
+}
+
+.how-to-start .title-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 42px;
+}
 
 
+.how-to-start .title-container  .line-img {
+  width: 120px;
+  height: 12px;
+  text-align: left;
+}
+
+
+.how-to-start .title-container h2 {
+    font-size: 32px;
+    color: #5712A6;
+}
+
+
+.how-to-start-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 40px;
+    width: 100%;
+}
+
+.how-to-start-container .hts-single {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 52px;
+    width: 20%;
+}
+
+.how-to-start-container .hts-single .title {
+    color: #5712A6;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.how-to-start-container .hts-single p {
+    color: #82809C;
+    font-size: 17px;
+}
 
 
 
