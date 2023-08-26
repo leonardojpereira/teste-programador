@@ -23,6 +23,10 @@ p {
     color: #82809C;
 }
 
+li {
+    list-style: none;
+}
+
 /* ====== header inicio ====== */
 
 header {
@@ -261,8 +265,7 @@ main {
 .services {
     display: flex;
     align-items: center;
-    margin: 160px 0;
-    margin-left: 120px;
+    margin: 160px 0 0 120px;
 }
 
 .services-content {
@@ -332,8 +335,153 @@ main {
 /* ====== services fim ====== */
 
 
+.download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
 
 
+.download .background-download img {
+    width: 100%;
+}
+
+.download-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 47%;
+}
+
+.download-container .download-text-container {
+    margin: 50px 0;
+}
+
+.download-container P {
+    color: #5712A6;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.download-container .btn-container {
+    display: flex;
+    gap: 28px;
+}
+
+.download-container .btn-container img {
+    width: 150px;
+}
+
+/* ====== download fim ====== */
+
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 160px auto;
+    gap: 200px;
+}
+
+.register-single p {
+    font-size: 36px;
+    color: #5712A6;
+    font-weight: bold;
+}
+
+.register .line-img {
+    margin-top: 56px;
+    width: 150px;
+}
+
+
+/* ====== register fim ====== */
+
+
+
+footer {
+    width: 100%;
+    padding: 100px 100px 0 100px;
+    background: url('/assets/img/fundo-footer-teste-programador.png.jpg');
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 1200px;
+    margin: 80px auto;
+}
+
+.footer-container .first-column {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.footer-container .first-column span {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
+
+.footer-container .first-column span:hover {
+  opacity: 0.8;
+}
+
+
+.footer-container h4 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 32px;
+}   
+
+.footer-container .column li {
+    color: #fff;
+    margin-top: 26px;
+    transition: ease 0.4s;
+    cursor: pointer;
+} 
+
+.footer-container .column li:hover {
+    opacity: 0.8;
+} 
+
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    border-top: solid 1px #fff;
+    padding: 32px 0;
+}
+
+.footer-social span {
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-social .social-container {
+    display: flex;
+    gap: 26px;
+
+}
+
+.footer-social .social-container li {
+    transition: ease 0.4s;
+    cursor: pointer;
+}
+
+.footer-social .social-container li:hover {
+    transform: scale(1.2);
+}
 
 
 /* ====== animations ====== */
